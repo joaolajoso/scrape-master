@@ -14,3 +14,4 @@ openpyxl
 groq
 google-generativeai
 webdriver-manager
+requests
