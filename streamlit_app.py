@@ -43,7 +43,7 @@ st.sidebar.title("Web Scraper Settings")
 with st.sidebar.expander("API Keys", expanded=False):
     st.session_state['openai_api_key'] = st.text_input("OpenAI API Key", type="password")
     st.session_state['gemini_api_key'] = st.text_input("Gemini API Key", type="password")
-    st.session_state['groq_api_key'] = st.text_input("Groq API Key", type="password")
+    #st.session_state['groq_api_key'] = st.text_input("Groq API Key", type="password")
 
 # Model selection
 model_selection = st.sidebar.selectbox("Select Model", options=list(PRICING.keys()), index=0)
