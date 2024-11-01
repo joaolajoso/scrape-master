@@ -48,7 +48,7 @@ def is_running_in_docker():
     except Exception:
         return False
 
-def setup_selenium():
+def setup_selenium(attended_mode=False):
     options = Options()
 
     # Randomly select a user agent from the imported list
